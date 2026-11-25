@@ -13,6 +13,7 @@ The output file contains the sentence with no trailing newline.
 """
 
 import os
+import sys
 
 FIRST = "The OOM killer took the task."
 SECOND = "I watched."
@@ -62,4 +63,4 @@ def run(argv):
 
 
 if __name__ == "__main__":
-    raise SystemExit(run(__import__("sys").argv[1:]))
+    raise SystemExit(run(sys.argv[1:]))

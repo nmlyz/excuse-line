@@ -9,7 +9,9 @@ single funniest excuse an AI agent could hand its human for a missed
 deadline — one line, 71 characters, no trailing newline. The excuse is
 built from the machine's own condition: the Linux OOM killer takes the
 task, the agent watches it happen, and calls standing by the polite
-thing to do. Three short beats, the punch in the last few words.
+thing to do. Three short beats, the punch in the last few words. The
+program assembles the line from its three beats and rejects it unless
+it fits the 1–200 character gate, so the file it writes is always valid.
 
 ## Run it
 
